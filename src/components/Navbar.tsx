@@ -2,7 +2,7 @@ import Image from "next/image";
 import { CloudMoon, UserRound } from "lucide-react";
 
 export const Navbar = () => {
-    const navItems = ["Home", "Categories", "Notification", "AI Music", <CloudMoon />];
+    const navItems = ["Home", "Categories", "Notification", "AI Music", <CloudMoon key={4} />];
 
     return (
         <header className="w-full h-16 sticky top-0 flex items-center justify-between bg-white pl-8 pr-20 shadow">
@@ -13,7 +13,7 @@ export const Navbar = () => {
                     navItems.map((item, index) => (
                         <button
                             type="button"
-                            key={`${index}-${item}`}
+                            key={index}
                             className="text-slate-800 font-medium cursor-pointer"
                         >
                             {

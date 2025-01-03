@@ -18,7 +18,7 @@ export const Achievements = () => {
         <div className="w-full flex items-center justify-between border-b border-b-gray-200 px-16">
             {
                 achievements.map((achievement, index) => (
-                    <div className="flex flex-col gap-2 items-center px-16 py-8">
+                    <div key={index} className="flex flex-col gap-2 items-center px-16 py-8">
                         <span className="text-4xl text-gray-800 font-bold">
                             {achievement.title}
                         </span>

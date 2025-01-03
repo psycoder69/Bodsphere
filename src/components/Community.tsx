@@ -13,7 +13,7 @@ export const Community = () => {
                 </h3>
 
                 <p className="w-[500px] text-sm leading-[24px] text-gray-900 font-light mt-8">
-                    Join the Bodsphere Community and take the first step towards joining the World's Biggest Community of Yoga Schools and Teachers that represent high quality, safe, affordable, accessible and equitable Yoga.
+                    Join the Bodsphere Community and take the first step towards joining the World&apos;s Biggest Community of Yoga Schools and Teachers that represent high quality, safe, affordable, accessible and equitable Yoga.
                 </p>
 
                 <button type="button" className="text-xs font-bold border border-gray-500 hover:text-white hover:bg-gray-800 rounded-full px-4 py-2 my-16">
